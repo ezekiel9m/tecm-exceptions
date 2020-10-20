@@ -1,2 +1,3 @@
-# TecmExceptions
-package, return standard error message and validation
+.Net project
+
+This project return standard error and do validation

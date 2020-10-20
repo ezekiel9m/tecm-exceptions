@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TecmExceptions</id>
+    <version>1.1.1</version>
+    <authors>TecmSolution</authors>
+    <owners>TecmSolution</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Retorna erros padronizado</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="FluentValidation" version="9.0.0-preview5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Developer\Apps\TecmExceptions\TecmExceptions\bin\Release\netstandard2.0\TecmExceptions.dll" target="lib\netstandard2.0\TecmExceptions.dll" />
+  </files>
+</package>
