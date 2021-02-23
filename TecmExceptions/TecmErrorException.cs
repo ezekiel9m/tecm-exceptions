@@ -7,7 +7,7 @@ namespace TecmExceptions
     {
         public TecmErrorException(ErrorModel error)
         {
-
+            ErrorModel = error;
         }
 
         public ErrorModel ErrorModel { get; }

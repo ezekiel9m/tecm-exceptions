@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Developer\\Apps\\TecmExceptions\\TecmExceptions\\TecmExceptions.csproj": {}
+    "C:\\Devolper\\TecmExceptions\\TecmExceptions\\TecmExceptions.csproj": {}
   },
   "projects": {
-    "D:\\Developer\\Apps\\TecmExceptions\\TecmExceptions\\TecmExceptions.csproj": {
+    "C:\\Devolper\\TecmExceptions\\TecmExceptions\\TecmExceptions.csproj": {
       "version": "1.1.3",
       "restore": {
-        "projectUniqueName": "D:\\Developer\\Apps\\TecmExceptions\\TecmExceptions\\TecmExceptions.csproj",
+        "projectUniqueName": "C:\\Devolper\\TecmExceptions\\TecmExceptions\\TecmExceptions.csproj",
         "projectName": "TecmExceptions",
-        "projectPath": "D:\\Developer\\Apps\\TecmExceptions\\TecmExceptions\\TecmExceptions.csproj",
+        "projectPath": "C:\\Devolper\\TecmExceptions\\TecmExceptions\\TecmExceptions.csproj",
         "packagesPath": "C:\\Users\\emuxito\\.nuget\\packages\\",
-        "outputPath": "D:\\Developer\\Apps\\TecmExceptions\\TecmExceptions\\obj\\",
+        "outputPath": "C:\\Devolper\\TecmExceptions\\TecmExceptions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emuxito\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,6 +27,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -38,10 +39,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
-            "FluentValidator": {
+            "FluentValidation": {
               "target": "Package",
-              "version": "[2.0.4, )"
+              "version": "[9.5.1, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -60,7 +62,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

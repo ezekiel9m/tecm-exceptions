@@ -11,11 +11,15 @@ namespace TecmExceptions.Models
         }
         public ErrorModel(string message, string parameter, int errorCode)
         {
-
+            this.Message = message;
+            this.ParameterName = parameter;
+            this.ErrorCode = errorCode;
         }
         public ErrorModel(string message, string parameter, HttpStatusCode errorCode)
         {
-
+            this.Message = message;
+            this.ParameterName = parameter;
+            this.ErrorCode = (int)errorCode;
         }
         public string Message { get; set; }
         public string ParameterName { get; set; }
