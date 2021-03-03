@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xuV+yncN+3URBu/Nuc78ODzMPT+seDBaxCCLJko+y5bboqmWPbJNCPQiqErWSw8Fzxxo3pEbqjGAOcpcveyavA==",
+  "dgSpecHash": "uLlVYK8TnrLrSjGlBXVhS9AR/lKn+aM+toc/q2KhJ/t8g3Hapy3ka+OmX3e0U0mS3IrLv381xltz4K94VAuAEw==",
   "success": true,
-  "projectFilePath": "C:\\Devolper\\TecmExceptions\\TecmExceptions\\TecmExceptions.csproj",
+  "projectFilePath": "C:\\Apps\\TecmExceptions\\TecmExceptions\\TecmExceptions.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emuxito\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\emuxito\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
