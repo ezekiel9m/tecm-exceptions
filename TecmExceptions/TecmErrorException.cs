@@ -10,6 +10,10 @@ namespace TecmExceptions
             ErrorModel = error;
         }
 
+        public TecmErrorException(int errorCode, string message, string parameterName)
+        {
+        }
+
         public ErrorModel ErrorModel { get; }
         public ErrorResponse ErrorResponse { get; }
     }
