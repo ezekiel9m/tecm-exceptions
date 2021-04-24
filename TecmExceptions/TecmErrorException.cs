@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using TecmExceptions.Models;
 
 namespace TecmExceptions
@@ -10,7 +11,11 @@ namespace TecmExceptions
             ErrorModel = error;
         }
 
-        public TecmErrorException(int errorCode, string message, string parameterName)
+        public TecmErrorException(int errorCode, string parameterName, string message)
+        {
+        }
+
+        public TecmErrorException(HttpStatusCode errorCode, string parameterName, string message)
         {
         }
 

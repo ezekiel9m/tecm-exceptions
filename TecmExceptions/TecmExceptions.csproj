@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageProjectUrl></PackageProjectUrl>
-    <Authors>TecmSolution</Authors>
+    <Authors>Ezequiel Muxito</Authors>
     <Description>package, return standard error message and validation</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <AssemblyVersion>1.1.1.2</AssemblyVersion>
@@ -11,6 +11,8 @@
     <NeutralLanguage>pt-AO</NeutralLanguage>
     <Version>1.1.4</Version>
     <PackageReleaseNotes>package, return standard error message and validation</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/ezekiel9m/TecmExceptions</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
