@@ -11,12 +11,14 @@ namespace TecmExceptions
             ErrorModel = error;
         }
 
-        public TecmErrorException(int errorCode, string parameterName, string message)
+        public TecmErrorException(int errorCode, string message, string parameterName)
         {
-        }
-
-        public TecmErrorException(HttpStatusCode errorCode, string parameterName, string message)
-        {
+            ErrorModel = new ErrorModel
+            {
+                ErrorCode = errorCode,
+                Message = message,
+                ParameterName = parameterName
+            };
         }
 
         public ErrorModel ErrorModel { get; }
