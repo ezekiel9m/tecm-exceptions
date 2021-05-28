@@ -8,7 +8,6 @@ namespace TecmExceptions.Models
     {
         public ErrorResponse()
         {
-
         }
         public List<ErrorModel> Errors { get; set; }
     }

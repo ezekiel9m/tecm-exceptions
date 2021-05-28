@@ -4,6 +4,7 @@ using TecmExceptions.Models;
 
 namespace TecmExceptions
 {
+   
     public class TecmErrorException : Exception
     {
         public TecmErrorException(ErrorModel error)
@@ -21,7 +22,20 @@ namespace TecmExceptions
             };
         }
 
-        public ErrorModel ErrorModel { get; }
-        public ErrorResponse ErrorResponse { get; }
+        public ErrorModel ErrorModel { get; private set; }
+
+        public ErrorResponse ErrorResponse { get; private set; }
+    }
+
+    public class InvalidApiKeyException : Exception
+    {
+        public InvalidApiKeyException(ErrorModel error)
+        {
+            ErrorModel = error;
+        }
+
+        public ErrorModel ErrorModel { get; private set; }
+
+        public ErrorResponse ErrorResponse { get; private set; }
     }
 }

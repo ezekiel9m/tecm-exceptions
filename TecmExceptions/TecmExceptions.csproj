@@ -3,13 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageProjectUrl></PackageProjectUrl>
-    <Authors>Ezequiel Muxito</Authors>
+    <Authors>emuxito</Authors>
     <Description>package, return standard error message and validation</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <AssemblyVersion>1.1.1.2</AssemblyVersion>
     <FileVersion>1.1.1.2</FileVersion>
     <NeutralLanguage>pt-AO</NeutralLanguage>
-    <Version>1.1.5</Version>
+    <Version>1.1.6</Version>
     <PackageReleaseNotes>package, return standard error message and validation</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/ezekiel9m/TecmExceptions</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
