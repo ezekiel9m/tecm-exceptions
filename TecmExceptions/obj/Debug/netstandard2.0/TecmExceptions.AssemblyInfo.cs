@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("package, return standard error message and validation")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.1.2")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.7")]
 [assembly: System.Reflection.AssemblyProductAttribute("TecmExceptions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TecmExceptions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.1.1.2")]
