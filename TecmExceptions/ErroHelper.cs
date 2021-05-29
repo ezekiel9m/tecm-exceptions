@@ -24,8 +24,9 @@ namespace VeripagExceptions
             var errorSelect = validate.Errors.Select(s => new ErrorModel
             {
                 ErrorCode = Convert.ToInt32(s.ErrorCode),
-                Message = s.ErrorMessage,
-                ParameterName = s.FormattedMessagePlaceholderValues != null ? s.FormattedMessagePlaceholderValues["PropertyName"].ToString() : s.PropertyName
+                ParameterName = s.FormattedMessagePlaceholderValues != null ? 
+                s.FormattedMessagePlaceholderValues["PropertyName"].ToString() : s.PropertyName,
+                Message = s.ErrorMessage
             })
             .ToList();
 

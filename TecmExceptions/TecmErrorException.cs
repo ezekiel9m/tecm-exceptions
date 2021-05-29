@@ -12,14 +12,11 @@ namespace TecmExceptions
             ErrorModel = error;
         }
 
-        public TecmErrorException(int errorCode, string message, string parameterName)
+        public TecmErrorException(int errorCode, string parameterName, string message)
         {
-            ErrorModel = new ErrorModel
-            {
-                ErrorCode = errorCode,
-                Message = message,
-                ParameterName = parameterName
-            };
+            ErrorModel.ErrorCode = errorCode;
+            ErrorModel.ParameterName = parameterName;
+            ErrorModel.Message = message;
         }
 
         public ErrorModel ErrorModel { get; private set; }
