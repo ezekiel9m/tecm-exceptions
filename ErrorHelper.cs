@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using FluentValidation.Results;
-using TecmExceptions.Models;
+using VeripagExceptions.Model;
 
 namespace VeripagExceptions
 {
@@ -24,9 +24,8 @@ namespace VeripagExceptions
             var errorSelect = validate.Errors.Select(s => new ErrorModel
             {
                 ErrorCode = Convert.ToInt32(s.ErrorCode),
-                ParameterName = s.FormattedMessagePlaceholderValues != null ? 
-                s.FormattedMessagePlaceholderValues["PropertyName"].ToString() : s.PropertyName,
-                Message = s.ErrorMessage
+                Message = s.ErrorMessage,
+                ParameterName = s.FormattedMessagePlaceholderValues != null ? s.FormattedMessagePlaceholderValues["PropertyName"].ToString() : s.PropertyName
             })
             .ToList();
 

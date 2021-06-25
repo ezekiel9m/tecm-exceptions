@@ -1,9 +1,0 @@
-D:\Developer\Apps\TecmExceptions\TecmExceptions\bin\Release\netstandard2.0\TecmExceptions.deps.json
-D:\Developer\Apps\TecmExceptions\TecmExceptions\bin\Release\netstandard2.0\TecmExceptions.dll
-D:\Developer\Apps\TecmExceptions\TecmExceptions\bin\Release\netstandard2.0\TecmExceptions.pdb
-D:\Developer\Apps\TecmExceptions\TecmExceptions\obj\Release\netstandard2.0\TecmExceptions.csprojAssemblyReference.cache
-D:\Developer\Apps\TecmExceptions\TecmExceptions\obj\Release\netstandard2.0\TecmExceptions.AssemblyInfoInputs.cache
-D:\Developer\Apps\TecmExceptions\TecmExceptions\obj\Release\netstandard2.0\TecmExceptions.AssemblyInfo.cs
-D:\Developer\Apps\TecmExceptions\TecmExceptions\obj\Release\netstandard2.0\TecmExceptions.dll
-D:\Developer\Apps\TecmExceptions\TecmExceptions\obj\Release\netstandard2.0\TecmExceptions.pdb
-D:\Developer\Apps\TecmExceptions\TecmExceptions\obj\Release\netstandard2.0\TecmExceptions.csproj.CoreCompileInputs.cache

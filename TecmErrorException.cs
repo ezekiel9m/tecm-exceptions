@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Net;
-using TecmExceptions.Models;
+using VeripagExceptions.Model;
 
-namespace TecmExceptions
+namespace VeripagExceptions
 {
-   
     public class TecmErrorException : Exception
     {
         public TecmErrorException(ErrorModel error)
@@ -12,11 +10,14 @@ namespace TecmExceptions
             ErrorModel = error;
         }
 
-        public TecmErrorException(int errorCode, string parameterName, string message)
+        public TecmErrorException(int errorCode, string message, string parameterName)
         {
-            ErrorModel.ErrorCode = errorCode;
-            ErrorModel.ParameterName = parameterName;
-            ErrorModel.Message = message;
+            ErrorModel = new ErrorModel
+            {
+                ErrorCode = errorCode,
+                Message = message,
+                ParameterName = parameterName
+            };
         }
 
         public ErrorModel ErrorModel { get; private set; }
