@@ -1,7 +1,7 @@
 ﻿using System;
-using VeripagExceptions.Model;
+using TecmExceptions.Models;
 
-namespace VeripagExceptions
+namespace TecmExceptions
 {
     public class TecmErrorException : Exception
     {
@@ -12,12 +12,14 @@ namespace VeripagExceptions
 
         public TecmErrorException(int errorCode, string message, string parameterName)
         {
-            ErrorModel = new ErrorModel
+            var erro = new ErrorModel
             {
                 ErrorCode = errorCode,
                 Message = message,
                 ParameterName = parameterName
             };
+
+            ErrorModel = erro;
         }
 
         public ErrorModel ErrorModel { get; private set; }

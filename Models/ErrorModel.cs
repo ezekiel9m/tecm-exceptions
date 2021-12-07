@@ -1,7 +1,7 @@
 ﻿
 using System.Net;
 
-namespace VeripagExceptions.Model
+namespace TecmExceptions.Models
 {
     public class ErrorModel
     {

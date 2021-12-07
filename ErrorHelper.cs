@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using FluentValidation.Results;
-using VeripagExceptions.Model;
+using TecmExceptions.Models;
 
-namespace VeripagExceptions
+namespace TecmExceptions
 {
     /// <summary>
     /// Class para normalização de respostas de erros.

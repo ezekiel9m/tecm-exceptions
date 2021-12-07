@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace VeripagExceptions.Model
+namespace TecmExceptions.Models
 {
     public class ErrorResponse
     {
